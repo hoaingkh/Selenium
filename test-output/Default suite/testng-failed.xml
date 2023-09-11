@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumwebdriver.CheckEnvironment">
+      <class name="seleniumwebdriver.Topic_05_Default_Dropdown">
         <methods>
-          <include name="TC_02_"/>
-          <include name="TC_01_"/>
-          <include name="TC_03_"/>
           <include name="afterClass"/>
+          <include name="TC_10_dropdown"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- seleniumwebdriver.CheckEnvironment -->
+      </class> <!-- seleniumwebdriver.Topic_05_Default_Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
